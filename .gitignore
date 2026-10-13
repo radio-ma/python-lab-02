@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# SQLite journals
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Environment
+.env
+.env.*
